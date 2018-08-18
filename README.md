@@ -7,6 +7,7 @@
 
 newone文件夹为eclipse工程文件夹
 用户可自行修改程序中的文件夹路径，使其指向自己所要识别或保存的文件夹
+本程序使用的tessdata字库训练较少，中文识别不太精确，用户可自行训练字库并使用以提高精确度
 
 本程序是对中国软件杯题目实现，题目如下：
 ![image1](https://github.com/passergentleman/tess4j/blob/master/photo/1.png)
