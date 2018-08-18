@@ -9,10 +9,13 @@ newone文件夹为eclipse工程文件夹
 用户可自行修改程序中的文件夹路径，使其指向自己所要识别或保存的文件夹
 
 本程序是对中国软件杯题目实现，题目如下：
-![image](https://github.com/passergentleman/tess4j/blob/master/photo/1.png)
+![image1](https://github.com/passergentleman/tess4j/blob/master/photo/1.png)
+
 图片未处理前效果：
-![image](https://github.com/passergentleman/tess4j/blob/master/photo/2.png)
+![image2](https://github.com/passergentleman/tess4j/blob/master/photo/2.png)
+
 图片处理后效果：
-![image](https://github.com/passergentleman/tess4j/blob/master/photo/3.png)
+![image3](https://github.com/passergentleman/tess4j/blob/master/photo/3.png)
+
 识别后excel表格内容：
-![image](https://github.com/passergentleman/tess4j/blob/master/photo/4.png)
+![image4](https://github.com/passergentleman/tess4j/blob/master/photo/4.png)
