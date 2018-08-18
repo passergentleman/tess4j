@@ -28,7 +28,7 @@ public class aa
 {
 	public static void main(String[] args) throws IOException
 	{
-		File root1 = new File("D:\\new\\tmall2");
+		File root1 = new File("D:\\new\\tmall2");//未处理图片文件夹位置
         File[] files1 = root1.listFiles();
         int count1=0;
 		for(File f : files1)//去水印
@@ -64,7 +64,7 @@ public class aa
 		StringBuilder strb=new StringBuilder(path);
 		strb.replace(13, 14, Integer.toString(count1));
 		path=strb.toString();
-		ImageIO.write(result, "png", new File(path));
+		ImageIO.write(result, "png", new File(path));//保存处理后的图片
 		}
 		//构建excel表
 		HSSFWorkbook wkb=new HSSFWorkbook();
@@ -77,8 +77,8 @@ public class aa
 		try {
             
             ITesseract instance = new Tesseract();
-            instance.setDatapath("F:\\MyDownloads\\Tess4J");
-            File root = new File("D:\\new\\tmall");
+            instance.setDatapath("F:\\MyDownloads\\Tess4J");//tessdata文件夹所在位置
+            File root = new File("D:\\new\\tmall");//处理后图片文件夹位置
             File[] files = root.listFiles();
             int count=0;
            for(File file : files)
@@ -139,6 +139,7 @@ public class aa
             				else if(a>=2) break;
             		}
             	}
+            	//新建excel表格
                 FileOutputStream output=new FileOutputStream("D:\\new\\result.xls");
                 try {
                 wkb.write(output);
